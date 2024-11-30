@@ -10,7 +10,9 @@ This repository contains governance documentation and information:
 # Technical Steering Committee
 
 * Nick Gerakines
+* Rudy Fraser
 
 # Current Project Team Members
 
 * Nick Gerakines
+* Rudy Fraser
