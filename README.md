@@ -9,10 +9,12 @@ This repository contains governance documentation and information:
 
 # Technical Steering Committee
 
-* Nick Gerakines
-* Rudy Fraser
+* Nick Gerakines `@ngerakines.me`
+* Rudy Fraser `@rudyfraser.com`
+* Tom Sherman `@tom.frontpage.team`
 
 # Current Project Team Members
 
-* Nick Gerakines
-* Rudy Fraser
+* Nick Gerakines `@ngerakines.me`
+* Rudy Fraser `@rudyfraser.com`
+* Tom Sherman `@tom.frontpage.team`
