@@ -12,9 +12,11 @@ This repository contains governance documentation and information:
 * Nick Gerakines `@ngerakines.me`
 * Rudy Fraser `@rudyfraser.com`
 * Tom Sherman `@tom.frontpage.team`
+* Ryan Barrett `@snarfed.org`
 
 # Current Project Team Members
 
 * Nick Gerakines `@ngerakines.me`
 * Rudy Fraser `@rudyfraser.com`
 * Tom Sherman `@tom.frontpage.team`
+* Ryan Barrett `@snarfed.org`
