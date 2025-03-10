@@ -1,7 +1,8 @@
+# Contributor Guide
 
 This document outlines what is expected of contributors to the Lexicon Community.
 
-# Types of Contributions
+## Types of Contributions
 
 This organization is volunteer run and contributions come in many forms. Recognizing this is critical to having a diverse and inclusive organization.
 
@@ -12,19 +13,19 @@ This organization is volunteer run and contributions come in many forms. Recogni
 
 There are other ways that people can contribute, and this is not an exclusive list.
 
-# Lexicon Repository
+## Lexicon Repository
 
 The [lexicon-community/lexicon](https://github.com/lexicon-community/lexicon) repository is the location that contains all of the official and approved lexicon schema files.
 
 The "main" branch contains lexicon schema files and related material that is considered “production”. Access to write to the main branch, including who has authority to merge content into it is moderated.
 
-# Play Books
+## Play Books
 
-## How Do I Add A Lexicon?
+### How Do I Add A Lexicon?
 
 Lexicon additions and changes start with the formation of a working group at the direction of the technical steering committee.
 
-### Working Group Formation
+#### Working Group Formation
 
 Before any lexicon schema development occurs, a working group is formed. A working group is a short-lived group of 1-3 people that do the initial work for the lexicon.
 
@@ -32,7 +33,7 @@ Before any lexicon schema development occurs, a working group is formed. A worki
 2. Discussion occurs among technical steering committee members to get to agreement on the objective and goals.
 3. In the lexicon-community/governance repository, an issue is created to bootstrap the working group. That issue is used to track all of the tasks needed to enable the working group to be successful.
 
-### Working Group Day-to-Day
+#### Working Group Day-to-Day
 
 Once the working group is formed, it is up to it’s members to go about the business of the working group to meet the objective. Working groups are meant to be self-organizing, but use official channels.
 
@@ -45,7 +46,7 @@ Eventually the produced work takes the form of a pull-request in the [lexicon-co
 
 Alternatively, if the working group concludes with no proposed changes, some form of report or discussion will be reported in the [lexicon-community/lexicon](https://github.com/lexicon-community/lexicon) discussion indicating such.
 
-### Request For Feedback
+#### Request For Feedback
 
 After the working group pull requests are created, a call for feedback is made to the broader community of collaborators and Lexicon Community contributors.
 
@@ -53,7 +54,7 @@ This open, iterative process takes place publicly with discourse happening in [l
 
 Once the "do not merge before" date has passed and if the changes have approval by at least 2 technical steering committee members, the changes can be merged and move forward to release.
 
-### Release
+#### Release
 
 The release process for lexicon additions and changes includes several steps:
 
@@ -61,7 +62,7 @@ The release process for lexicon additions and changes includes several steps:
 2. The lexicon is published for discovery through official lexicon discovery paths, specifically PDS records and DNS records.
 3. The lexicon is announced through the Lexicon Community social media channel
 
-## How are Lexicons Updated?
+### How are Lexicons Updated?
 
 Lexicon modifications can take two forms.
 
@@ -70,11 +71,11 @@ Lexicon modifications can take two forms.
 
 A technical steering committee member or collaborator may make the determination that the change is large enough in scope to warrant additional discussion and scrutiny. In those cases, a working group will be formed to fully explore the change and its impact.
 
-### Hotfixes
+#### Hotfixes
 
 An important caveat to this is the concept of a hotfix. In the event of a critical or breaking change, a technical steering committee member may create a hotfix pull request. A hotfix PR would require approval by at least two other TSC members to be merged and released.
 
-## Lexicon Proposal Best Practices
+### Lexicon Proposal Best Practices
 
 Lexicon schemas vary in complexity and there is no single design pattern to draw from. Instead, consider how you would answer the following questions when designing and proposing lexicon changes.
 
