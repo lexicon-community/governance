@@ -15,4 +15,4 @@ This repository contains governance documentation and information:
 * Nick Gerakines `@ngerakines.me`
 * Rudy Fraser `@rudyfraser.com`
 * Ryan Barrett `@snarfed.org`
-* Tom Sherman `@tom.frontpage.team`
+* Tom Sherman `@tom.sherman.is`
