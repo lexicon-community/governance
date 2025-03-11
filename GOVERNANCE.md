@@ -1,73 +1,97 @@
-# Project Governance
+# Governance
 
-_NOTE_: This document is not final. See [RFC: Technical Steering Committee style governance #1](https://github.com/lexicon-community/governance/discussions/1)
+## The Organization
 
-# Technical Steering Committee
+The mission of the Lexicon Community is to create an effective, active blueprint for collective ownership of Lexicons in the ATMosphere and build a stable and thoughtful lexicon that can be used by application, system, and SDK developers.
 
-This project is collectively governed by a Technical Steering Committee (TSC), which is responsible for providing high-level guidance.
+It does so through a partnership between Technical Steering Committee, Collaborators, and the broad AT Protocol community to work on a shared Lexicon and provide infrastructure to support it.
 
-The TSC has final authority over this project, including:
+The [lexicon-community/governance](https://github.com/lexicon-community/governance) project contains a list of contributors.
 
-* Technical Direction
-* Project Governance and Process
-* Contribution Governance
-* Project infrastructure (GitHub, DNS, and ATProtocol)
-* Collaborator Management
+## Technical Steering Committee
 
-Initial membership invitations to the TSC are given to individuals who have been active contributors to ATProtocol applications, libraries, and components. Membership is expected to evolve over time according to the project's needs.
+This project is collectively governed by a Technical Steering Committee (TSC) that has final authority over this project, including:
 
-For the current list of TSC members, see the project [README.md](./README.md#technical-steering-committee).
+* Technical direction
+* Lexicon additions and changes
+* Project governance and process
+* Collaborator and contribution governance
+* Project infrastructure
+
+Initial membership in the TSC was granted to individuals who have been active contributors to ATProtocol applications, libraries, and components. Membership will evolve and adapt to meet the project's needs.
+
+See the [Consent Seeking Decision Process](#consent-seeking-decision-process) below for further details on the consensus model used for governance.
 
 ## Collaborators
 
-The [lexicon-community/lexicon](https://github.com/lexicon-community/lexicon) GitHub repository is maintained by the TSC and additional Collaborators who are added by the TSC on an ongoing basis.
+Collaborators are individuals who contribute to the Lexicon Community. They may represent themselves or an organization.
 
-Individuals making significant and valuable contributions are made Collaborators and given commit-access to the project. These individuals are identified by the TSC and their addition as Collaborators is discussed during the regular TSC meeting.
+Collaborators' primary responsibility is contributing to the technical and non-technical discussions and proposals within the Lexicon Community. There is no requirement that collaborators are AT Protocol software developers.
 
-_Note:_ If you make a significant contribution and are not considered for commit-access, log an issue or contact a TSC member directly and it will be brought up in the next TSC meeting.
+## Working Groups
 
-Modifications of the contents of the lexicon-community/lexicon repository are made on a collaborative basis. Anybody with a GitHub account may propose a modification via pull request and it will be considered by the project Collaborators. All pull requests must be reviewed and accepted by a Collaborator with sufficient expertise who is able to take full responsibility for the change. In the case of pull requests proposed by an existing Collaborator, an additional Collaborator is required for sign-off. Consensus should be sought if additional Collaborators participate and there is disagreement around a particular modification. See _Consensus Seeking Process_ below for further detail on the consensus model used for governance.
+The work of the Lexicon Community starts with working groups. Working groups are groups of individuals selected by the technical steering committee to collaborate for a specific purpose.
 
-Collaborators may opt to elevate significant or controversial modifications, or modifications that have not found consensus to the TSC for discussion by assigning the ***tsc-agenda*** tag to a pull request or issue. The TSC should serve as the final arbiter where required.
+Additions and significant changes to the Lexicon Community schema, infrastructure, and organization start with the designation of a working group with a vote of formation by the technical steering committee. Only TSC members may propose working groups, so non-TSC members must seek sponsorship.
 
-For the current list of Collaborators, see the project [README.md](./README.md#current-project-team-members).
+There are two requirements for forming a working group:
 
-A guide for Collaborators is maintained in [COLLABORATOR_GUIDE.md](./COLLABORATOR_GUIDE.md).
+1. An objective that is documented and used by the working group to focus the scope of its work.
+2. A vote by technical steering committee members.
 
-## Membership
+A working group's objective and the produced result do not need to be a finished product, and it is not expected that the produced result will be used as is.
 
-TSC seats are not time-limited.  There is no fixed size of the TSC. However, the expected target is between 6 and 12, to ensure adequate coverage of important areas of expertise, balanced with the ability to make decisions efficiently.
+For example, the technical steering committee could form a working group with three volunteers to "Provide an initial lexicon schema with documentation and reference code for recipe data structures and present a recommendation to the TSC in 30 days."
 
-There is no specific set of requirements or qualifications for TSC membership beyond these rules.
+The TSC is ultimately responsible for ensuring working groups deliver on their objectives, taking further action, or disbanding working groups, and does so at its discretion.
 
-The TSC may add additional members to the TSC by a standard TSC motion.
+## Consent Seeking Decision Process
 
-A TSC member may be removed from the TSC by voluntary resignation, or by a standard TSC motion.
+Lexicon Community follows a consent-seeking decision-making model, on the model of [Sociocratic organizations](https://www.sociocracyforall.org/consent-decision-making/) and the [IETF](https://datatracker.ietf.org/doc/html/rfc7282).
 
-Changes to TSC membership should be posted in the agenda, and may be suggested as any other agenda item (see "Meetings" below).
+After a discussion of an agenda item, the moderator goes around each voting party and asks, "Do you have any objection to the proposal?". If a valid objection is raised, the proposal cannot move forward as is, and must be amended until no objections are left. Amendments might include adding trial periods, reducing the scope of the proposal, or further research.
 
-No more than 1/3 of the TSC members may be affiliated with the same employer.  If removal or resignation of a TSC member, or a change of employment by a TSC member, creates a situation where more than 1/3 of the TSC membership shares an employer, then the situation must be immediately remedied by the resignation or removal of one or more TSC members affiliated with the over-represented employer(s).
+A decision is made when there is no objection left.
 
-## Meetings
+### Valid Objections
 
-The TSC meets no less than quarterly. A meeting can be called by a TSC member The meeting is run by a designated moderator approved by the TSC. Each meeting should be published to an accessible, public video hosting service.
+In consent-seeking decision-making, valid objections cannot be a matter of personal preference, but must represent a potential harm to the group’s purpose or strategy. By raising an objection, a person signals that the current proposal is outside their range of tolerance, and poses a risk they believe the group cannot afford to take.
 
-Items are added to the TSC agenda which are considered contentious or are modifications of governance, contribution policy, TSC membership, or release process.
+By not raising an objection, each participant agrees the proposal is: 
 
-The intention of the agenda is not to approve or review all patches. That should happen continuously on GitHub and be handled by the larger group of Collaborators.
+* "Good enough for now," moving the Lexicon Community towards its stated objectives.
+* "Safe enough to try," not causing irreparable or disproportionate harm to the Lexicon Community’s mission.
 
-Any community member or contributor can ask that something be added to the next meeting's agenda by logging a GitHub Issue. Any Collaborator, TSC member or the moderator can add the item to the agenda by adding the ***tsc-agenda*** tag to the issue.
+### Overriding Objections 
 
-Prior to each TSC meeting, the moderator will share the Agenda with members of the TSC. TSC members can add any items they like to the agenda at the beginning of each meeting. The moderator and the TSC cannot veto or remove items.
+Since each objection is a signal that someone thinks irreparable harm might come to the group’s goals, it is paramount that the group listens to objections and deeply tries to understand the reasoning behind them, even when they might not seem to make sense at first.
 
-The TSC may invite persons or representatives from certain projects to participate in a non-voting capacity.
+Overriding an objection should be a last resort, and might by itself harm the goals of the group in the long term. Should it become necessary, an objection can be overridden by majority vote.
 
-The moderator is responsible for summarizing the discussion of each agenda item and sending it as a pull request after the meeting.
+## Announcements and News
 
-## Consensus Seeking Process
+The Technical Steering Committee communicates official news and announcements in two ways:
 
-The TSC follows a [Consensus Seeking](http://en.wikipedia.org/wiki/Consensus-seeking_decision-making) decision making model.
+1. Through "Announcement" categorized discussions in the [lexicon-community/governance](https://github.com/lexicon-community/governance) and [lexicon-community/lexicon](https://github.com/lexicon-community/lexicon) GitHub discussions
 
-When an agenda item has appeared to reach a consensus, the moderator will ask "Does anyone object?" as a final call for dissent from the consensus.
+2. Through social media posts on the official [@lexicon.community](https://hopper.at/?aturi=at%3A%2F%2Flexicon.community) account.
 
-If an agenda item cannot reach a consensus, a TSC member can call for either a closing vote or a vote to table the issue to the next meeting. The call for a vote must be approved by a majority of the TSC or else the discussion will continue. Simple majority wins.
+## General Discourse
+
+The Technical Steering Committee and collaborators encourage and moderate collaboration with the intention of producing tangible contributions to the Lexicon Community.
+
+Discourse takes several forms, but official channels include:
+
+* GitHub Discussions, Issues, and Pull-Requests
+* Discord
+* Email
+
+Any comments, opinions, or writings of technical steering committee members and collaborators are their own and not of Lexicon Community unless explicitly indicated within the writing at the time.
+
+## Contributor Guide and Covenant
+
+The Lexicon Community organization does not limit contributions to technical steering committee members and collaborators, but there are guidelines that everyone must follow.
+
+See [Contributor Guide](CONTRIBUTING.md) and [Contributor Covenant](COVENANT.md).
+
+Community members who refuse to adhere to the Contributor Guide or Contributor Covenant may be expelled from the project.

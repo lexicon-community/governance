@@ -1,2 +1,0 @@
-# Collaborator Guide
-
