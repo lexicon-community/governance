@@ -16,3 +16,4 @@ This repository contains governance documentation and information:
 * Rudy Fraser `@rudyfraser.com`
 * Ryan Barrett `@snarfed.org`
 * Tom Sherman `@tom.sherman.is`
+* Bluesky, PBC `@bsky.app`
