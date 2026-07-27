@@ -1,19 +1,13 @@
-# Governance
+# Lexicon Community governance — moved
 
-This repository contains governance documentation and information:
+This repository is archived. The governance documents for Lexicon Community now live on the website, which is the source of truth:
 
-* [GOVERNANCE.md](./GOVERNANCE.md) contains the governance bylaws for the technical steering committee (TSC).
-* [CONTRIBUTING.md](./CONTRIBUTING.md) is a guide to contributing to Lexicon Community.
-* [COVENANT.md](./COVENANT.md) is the contributor covenant and code of conduct.
+**https://lexicon.community/governance/**
 
-[Governance Discussions](https://github.com/lexicon-community/governance/discussions) is used for announcements, technical steering committee activity, and governance discussions.
+- [Governance model](https://lexicon.community/governance/model/) — the Technical Steering Committee, working groups, the consent process, quorum, and meetings
+- [Contributor covenant](https://lexicon.community/governance/covenant/)
+- [Contributing guide](https://lexicon.community/governance/contributing/)
 
-# Technical Steering Committee
+Each document carries its effective date and a changelog, so amendments are visible where the documents live. The history in this repository is preserved as-is; it remains the record of how these documents began.
 
-* Boris Mann `@bmann.ca`
-* Ms Boba `@essentialrandom.bsky.social`
-* Nick Gerakines `@ngerakines.me`
-* Rudy Fraser `@rudyfraser.com`
-* Ryan Barrett `@snarfed.org`
-* Tom Sherman `@tom.sherman.is`
-* Bluesky, PBC `@bsky.app`
+Proposals and discussion happen on the [Lexicon Community forum](https://discourse.atmosphere.community/c/lexicon-community/31). The lexicon schemas live at https://tangled.org/lexicon.community/lexicons.
